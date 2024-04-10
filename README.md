@@ -2,17 +2,17 @@
 This is a simple app that uses the Gemini API to answer some questions.
 
 ## Getting Started
-### Prerequisites:
--A Gemini API project (https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini)
+## Prerequisites:
+- A Gemini API project (https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini)
 
-### Setup:
+## Setup:
 1. Configure your Gemini API credentials within the application code.
    
 ## Features
 - User-friendly chat interface for seamless conversations.
 - Powered by Gemini API for intelligent communication.
 
-### Dependencies
+## Dependencies
  - `flutter_gemini` - A Flutter plugin for the Gemini API.
  - `dash_chat_2` - A Flutter chat UI library.
  - `image_picker` - A Flutter plugin for selecting images from the gallery.

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:geminiapp2/constant.dart';
-import 'package:geminiapp2/home.dart';
+import 'package:geminiapp2/Constants/constant.dart';
+import 'package:geminiapp2/Constants/routes.dart';
+
+import 'package:geminiapp2/Screens/home_screen.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
+import 'package:geminiapp2/Screens/onboarding_screen.dart';
 
 void main() {
   Gemini.init(apiKey: GEMINI_API_KEY);
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(),
+      home: const OnboardingScreen(),
     );
   }
 }
